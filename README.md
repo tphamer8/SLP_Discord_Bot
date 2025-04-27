@@ -13,12 +13,9 @@ This Discord bot is designed to automatically verify a user's purchase of a STEM
 
 
 <h2>Program walk-through:</h2>
-
-
-<p align="center">
-When the user joins the Discord server, they are prompted to verify their account by first typing "!verify" in the #verification channel <br/>
-<img src="https://imgur.com/Pt9Pe21" height="100%" width="100%" alt="Welcome/Verifcation Message"/>
-
+1. When a user joins the Discord server, they are prompted to verify their account by first typing "!verify" in the #verification channel
+<img src="https://imgur.com/Pt9Pe21.png" height="100%" width="100%" alt="Welcome/Verifcation Message"/>
+2. 
 
 The bot retrieves the corresponding data from the Google Sheet, verifying the order number and email address.
 
