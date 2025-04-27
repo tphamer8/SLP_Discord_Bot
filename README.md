@@ -1,7 +1,7 @@
 <h1>Role Verifcation Discord Bot</h1>
 <!-- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo) -->
 <h2 style="color: darkblue;">Description</h2>
-This Discord bot would verify the users' purchase of a STEM Launch Program course and assign them the appropriate role to give them access to their session text and voice channels. The bot would verify customer information from a Google spreadsheet by using their Order Number and email address. The Google Sheet was populated using Make, a software automation tool, which integrated the purchased orders from the STEM Launch Program Squarespace website into the sheet. For the Discord bot to run at all hours, the program ran on an AWS instance.
+This Discord bot is designed to automatically verify a user's purchase of a STEM Launch Program course and assign them the appropriate role to access their session-specific text and voice channels. It functions by cross-referencing the user’s provided Order Number and email address against a Google Sheet populated by Make, a software automation tool. Make integrates the orders from the STEM Launch Program’s Squarespace website into the sheet, keeping it up-to-date with purchases.
 <br />
 
 <h2 style="color: darkblue;">Languages and Utilities Used</h2>
@@ -13,6 +13,19 @@ This Discord bot would verify the users' purchase of a STEM Launch Program cours
 
 
 <h2>Program walk-through:</h2>
+
+
+<p align="center">
+When the user joins the Discord server, they are prompted to verify their account by first typing "!verify" in the #verification channel <br/>
+<img src="https://imgur.com/Pt9Pe21" height="100%" width="100%" alt="Welcome/Verifcation Message"/>
+
+
+The bot retrieves the corresponding data from the Google Sheet, verifying the order number and email address.
+
+If a match is found, the bot assigns the appropriate role to the user, granting access to the correct session channels.
+
+If there is no match, the bot informs the user of the issue (e.g., invalid credentials) and prevents them from accessing the channels.
+
 
 <p align="center">
 Add the new hire entry to the sheet and click the checkbox: <br/>
