@@ -1,7 +1,7 @@
 <h1>Role Verifcation Discord Bot</h1>
 <!-- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo) -->
 <h2 style="color: darkblue;">Description</h2>
-This Discord bot is designed to automatically verify a user's purchase of a STEM Launch Program course and assign them the appropriate role to access their session-specific text and voice channels. It functions by cross-referencing the user’s provided Order Number and email address against a Google Sheet populated by Make, a software automation tool. Make integrates the orders from the STEM Launch Program’s Squarespace website into the sheet, keeping it up-to-date with purchases.
+This Discord bot is designed to automatically verify a user's purchase of a STEM Launch Program course and assign them the appropriate role to access their course-specific text and voice channels. It functions by cross-referencing the user’s order number, email Address, and purchased course against a Google Sheet populated by Make, a software automation tool. Make integrates the orders from the STEM Launch Program’s Squarespace website into the sheet, keeping it up-to-date with purchases.
 <br />
 
 <h2 style="color: darkblue;">Languages and Utilities Used</h2>
@@ -24,3 +24,6 @@ This Discord bot is designed to automatically verify a user's purchase of a STEM
 <br/>
 <br/>
 AWS Instance Hosting: To ensure the bot runs continuously, it is hosted on an AWS EC2 instance. This provides a scalable, reliable, and secure environment, allowing the bot to run 24/7 and handle multiple concurrent verification requests efficiently.
+<br/>
+<br/>
+<a href="https://github.com/tphamer8/SLP_Discord_Bot/blob/main/bot%20(for%20github).py">Link to code</a>
