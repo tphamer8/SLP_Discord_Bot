@@ -18,6 +18,7 @@ This Discord bot is designed to automatically verify a user's purchase of a STEM
 2. 
 
 The bot retrieves the corresponding data from the Google Sheet, verifying the order number and email address.
+<img src="https://github.com/tphamer8/SLP_Discord_Bot/blob/main/SLP%20Bot%20Message%20Photo.jpg" height="100%" width="100%" alt="Welcome/Verifcation Message"/>
 
 If a match is found, the bot assigns the appropriate role to the user, granting access to the correct session channels.
 
